@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
 
 class MainViewModel(val context : Context):ViewModel() {
+
     private var quoteList : Array<Quote> = emptyArray()
     private var index =0
 

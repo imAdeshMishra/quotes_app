@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         setQuote(mainViewModel.getQuote())
     }
 
+
     fun setQuote(quote: Quote){
         quoteText.text = quote.text
         quoteAuthor.text = quote.author
